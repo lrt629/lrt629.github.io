@@ -225,11 +225,11 @@ clickContainer.addEventListener("pointerdown", (event) => {
 
         var availableGames = gameInPool.filter(el => el == true).length;
 
-        //if (availableGames == 0) {
-         //   return;
+        if (availableGames == 0) {
+            return;
         }
 
-        while (!gameInPool[currentGameIndex]) {
+        //while (!gameInPool[currentGameIndex]) {
             currentGameIndex = getRandomInt(0, gameNames.length - 1);
         }
 
