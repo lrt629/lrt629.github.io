@@ -1,7 +1,7 @@
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 
-/*const gameNames = [
+const gameNames = [
     "FNAF 1",
     "FNAF 2",
     "FNAF 3 (Troll)",
@@ -26,7 +26,7 @@ import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
     "Help Wanted 2",
     "Into The Pit",
     "Five Laps at Freddy's"
-];*/
+];
 
 const gameLogos = [
     "game-thumbnails/001-fnaf-1.png",
