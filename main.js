@@ -218,7 +218,7 @@ var windAudio;
 clickContainer.addEventListener("pointerdown", (event) => {
     mouseDown = true;
 
-    if (canWind && windAnim && !tabletOpen) {
+    /*if (canWind && windAnim && !tabletOpen) */{
 
         // pick a random game
         currentGameIndex = getRandomInt(0, gameNames.length - 1);
