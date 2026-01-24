@@ -3,7 +3,7 @@ import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 
 const gameNames = [
     "FNAF 1",
-    "FNAF 2",
+    "FNAF 2fdkjfkdfjdkfj",
     "FNAF 3 (Troll)",
     "FNAF 3",
     "FNAF 4",
