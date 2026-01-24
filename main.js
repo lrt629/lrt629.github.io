@@ -55,7 +55,7 @@ const gameLogos = [
     "game-thumbnails/024-five-laps-at-freddys.png"
 ];
 
-//var gameInPool = Array(gameNames.length).fill(true);
+var gameInPool = Array(gameNames.length).fill(true);
 
 
 const scene = new THREE.Scene();
@@ -225,8 +225,8 @@ clickContainer.addEventListener("pointerdown", (event) => {
 
         var availableGames = gameInPool.filter(el => el == true).length;
 
-        if (availableGames == 0) {
-            return;
+        //if (availableGames == 0) {
+         //   return;
         }
 
         while (!gameInPool[currentGameIndex]) {
