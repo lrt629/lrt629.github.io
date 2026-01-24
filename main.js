@@ -1,7 +1,7 @@
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 
-const gameNames = [
+/*const gameNames = [
     "FNAF 1",
     "FNAF 2",
     "FNAF 3 (Troll)",
@@ -26,7 +26,7 @@ const gameNames = [
     "Help Wanted 2",
     "Into The Pit",
     "Five Laps at Freddy's"
-];
+];*/
 
 const gameLogos = [
     "game-thumbnails/001-fnaf-1.png",
@@ -229,7 +229,7 @@ clickContainer.addEventListener("pointerdown", (event) => {
             return;
         }
 
-        //while (!gameInPool[currentGameIndex]) {
+        while (!gameInPool[currentGameIndex]) {
             currentGameIndex = getRandomInt(0, gameNames.length - 1);
         }
 
