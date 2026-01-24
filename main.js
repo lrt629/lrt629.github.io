@@ -3,7 +3,7 @@ import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 
 const gameNames = [
     "FNAF 1",
-    "FNAF 2fdkjfkdfjdkfj",
+    "FNAF 2",
     "FNAF 3 (Troll)",
     "FNAF 3",
     "FNAF 4",
@@ -226,7 +226,7 @@ clickContainer.addEventListener("pointerdown", (event) => {
         var availableGames = gameInPool.filter(el => el == true).length;
 
         if (availableGames == 0) {
-            return;
+            //return;
         }
 
         while (!gameInPool[currentGameIndex]) {
