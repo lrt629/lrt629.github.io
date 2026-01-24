@@ -55,7 +55,7 @@ const gameLogos = [
     "game-thumbnails/024-five-laps-at-freddys.png"
 ];
 
-var gameInPool = Array(gameNames.length).fill(true);
+//var gameInPool = Array(gameNames.length).fill(true);
 
 
 const scene = new THREE.Scene();
